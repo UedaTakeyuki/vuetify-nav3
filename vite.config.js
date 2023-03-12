@@ -18,12 +18,13 @@ export default defineConfig(({ mode }) => {
         fileName: (format) => `vuetify-nav3.${format}.js`,
       },
       rollupOptions: {
-        external: ['vue'],
+        external: ['vue','vuetify'],
         output: {
           // Provide global variables to use in the UMD build
           // Add external deps here
           globals: {
             vue: 'Vue',
+            vuetify: 'Vuetify',
           },
           plugins: [
             analyze(), 

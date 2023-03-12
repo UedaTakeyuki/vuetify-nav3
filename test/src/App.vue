@@ -10,7 +10,7 @@
 
 <script>
 //import {Navbar} from '../../src/components/build-entry.js'
-import Navbar from '../../src/components/Navbar.vue'
+import Navbar from './components/Navbar.vue'
 export default {
   components: {Navbar},
     data: () => ({
