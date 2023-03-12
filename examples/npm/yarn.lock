@@ -1390,10 +1390,10 @@ vue@^3.2.13, vue@^3.2.38, vue@^3.2.45:
     "@vue/server-renderer" "3.2.47"
     "@vue/shared" "3.2.47"
 
-vuetify-nav3@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/vuetify-nav3/-/vuetify-nav3-1.0.2.tgz#356a887cbb6605f706fae2dfc7a871959fd3029b"
-  integrity sha512-TCRIfaUCXV7j9GctSHuJPD6VACuCqXOqP1WQy4nVqcp/iWl5OgxbhEaHfUKwSHbZo+hq2prHhZB33U5nSITeTQ==
+vuetify-nav3@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/vuetify-nav3/-/vuetify-nav3-1.0.3.tgz#306378632d0f63a41a360b374630768cd96012e9"
+  integrity sha512-Rns7VZ2TEArwLvOXcfIpGZHUz+3Ga2pTdxap6cnxPJ+upZXjjVOXvxF8gfSU3jrcZjh/uNvpOY9MQb+xUMxqCg==
   dependencies:
     qrcode-of-this-site3 "^1.0.11"
     vue "^3.2.45"
