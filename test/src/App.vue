@@ -9,8 +9,7 @@
 </template>
 
 <script>
-//import {Navbar} from '../../src/components/build-entry.js'
-import Navbar from './components/Navbar.vue'
+import {Navbar} from '../../src/components/build-entry.js'
 export default {
   components: {Navbar},
     data: () => ({
