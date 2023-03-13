@@ -341,7 +341,7 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
-core-js@^3.8.3:
+core-js@^3.6.5, core-js@^3.8.3:
   version "3.29.0"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.29.0.tgz#0273e142b67761058bcde5615c503c7406b572d6"
   integrity sha512-VG23vuEisJNkGl6XQmFJd3rEG/so/CNatqeE+7uZAwTSwFeB/qaO0be8xZYUNWprJ/GIwL8aMt9cj1kvbpTZhg==
@@ -1379,7 +1379,7 @@ vue-router@^4.0.0:
   dependencies:
     "@vue/devtools-api" "^6.4.5"
 
-vue@^3.2.13, vue@^3.2.38, vue@^3.2.45:
+vue@^3.2.13, vue@^3.2.38, vue@^3.2.47:
   version "3.2.47"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.47.tgz#3eb736cbc606fc87038dbba6a154707c8a34cff0"
   integrity sha512-60188y/9Dc9WVrAZeUVSDxRQOZ+z+y5nO2ts9jWXSTkMvayiWxCWOWtBQoYjLeccfXkiiPZWAHcV+WTPhkqJHQ==
@@ -1390,14 +1390,14 @@ vue@^3.2.13, vue@^3.2.38, vue@^3.2.45:
     "@vue/server-renderer" "3.2.47"
     "@vue/shared" "3.2.47"
 
-vuetify-nav3@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/vuetify-nav3/-/vuetify-nav3-1.0.4.tgz#618194ed8d9325ac00851e0cb0335e48557bf3d4"
-  integrity sha512-LRYyewET1NkyQeBYmx7JNMl+B6uRgSzi/CCYnH3iVZbHuuIOS1kTsJUMCmik8QcjJ7HJlc2ElJc4Wf/qAFQI8g==
+vuetify-nav3@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/vuetify-nav3/-/vuetify-nav3-1.0.5.tgz#5ae8afd524afe137a71cb8493167d30ef3124296"
+  integrity sha512-AOwNOUFVWiAWbPJ8deUIiOwhwc2QNYZQ8Fr8RzKsGXjL+kCbopmBFm+doKrHJBoVhiogVvHoQmC7y3zXnxEyRA==
   dependencies:
+    core-js "^3.6.5"
     qrcode-of-this-site3 "^1.0.11"
-    vue "^3.2.45"
-    vuetify "^3.1.8"
+    vue "^3.2.47"
 
 vuetify@^3.0.0, vuetify@^3.1.8:
   version "3.1.8"
