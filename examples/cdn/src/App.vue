@@ -14,7 +14,7 @@ export default {
   components: {Navbar},
   data: () => ({
     links: [
-      { icon: '', text: 'Home', route: '/'},
+      { icon: 'home', text: 'Home', route: '/'},
     ]
   }),
   mounted(){
