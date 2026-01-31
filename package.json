@@ -5,16 +5,8 @@
     "src/components/build-entry.js"
   ],
   "private": false,
-  "main": "./dist/vuetify-nav3.umd.js",
-  "module": "./dist/vuetify-nav3.es.js",
-  "exports": {
-    ".": {
-      "import": "./dist/vuetify-nav3.es.js",
-      "require": "./dist/vuetify-nav3.umdit.js"
-    }
-  },
-  "version": "1.1.0",
-  "type": "module",
+  "main": "./src/components/build-entry.js",
+  "version": "1.1.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
