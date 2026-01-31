@@ -13,6 +13,7 @@
 <script setup>
 // import from main project
 import Navbar from '../../src/components/Navbar.vue'
+// test settings of Navbar
 const links = [
       { icon: '', text: 'Home', route: '/'},
     ]
