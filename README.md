@@ -60,14 +60,15 @@ for more detail refer [wiki](https://github.com/UedaTakeyuki/vuetify-nav/wiki/Us
 Demo site is available at [here](https://vue-faui-user-fe-sample.uedasoft.com/).
 
 ## Q&A
-Github [issues](https://github.com/UedaTakeyuki/vuetify-nav/issues) are available. Any questions, suggestions, request, and reports are welcome!
+Github [issues](https://github.com/UedaTakeyuki/vuetify-nav3/issues) are available. Any questions, suggestions, request, and reports are welcome!
 
 ## Author
 [Dr. Takeyuki UEDA](https://atelierueda.uedasoft.com/)
 
 ## Version
 - vuetify-nav@2: for Vue2
-- vuetify-nav@3: for Vue3
+This is for the project with ```Vue3``` + ```Vuetify3```. For ```Vue2``` + ```Vuetify2```, use [vuetify-nav2](https://github.com/UedaTakeyuki/vuetify-nav2).
 
 ## History
 - 1.0.0 2023.03.12 forked from [vuetify-nav](https://github.com/UedaTakeyuki/vuetify-nav)@3 for the candidate of successor for **Vue3**.
+- 1.1.0 2026.01.31 merge Vuetify-nav3.1 into this project.

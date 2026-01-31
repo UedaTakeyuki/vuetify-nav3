@@ -2,7 +2,7 @@
   <v-app>
     <!-- Test Navbar -->
     <Navbar
-      titleStr="Demo App" :links="links" qrExp=""
+      titleStr="Demo App" :links="links" qrExp="けろけろ"
     />
     <v-main>
       <router-view />
