@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <!-- Test Navbar -->
     <Navbar
       titleStr="Demo App" :links="links" qrExp=""
     />
@@ -10,6 +11,7 @@
 </template>
 
 <script setup>
+// import from main project
 import Navbar from '../../src/components/Navbar.vue'
 const links = [
       { icon: '', text: 'Home', route: '/'},
